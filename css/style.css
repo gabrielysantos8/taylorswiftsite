@@ -230,6 +230,22 @@ img{
     background-color: rgb(61, 245, 61);
 }
 
+.fearless{
+    background-color: #FFD700;
+}
+
+.speaknow{
+    background-color: #BA55D3;
+}
+
+.red{
+    background-color: rgb(207, 4, 4);
+}
+
+.azul{
+    background-color: #87CEFA;
+}
+
 iframe{
     width: 100%;
 
