@@ -15,18 +15,22 @@
         <div>
             <img class="logo" src="img/casa eras.png" alt="">
         </div>
-        <nav>
-            sobre
-            eras 
-            tours
-            figurinos
-            curosidades
+        <nav id="menu"> 
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a class="menu" href="index.html"  onclick="document.getElementById('menu-toggle').click()">Sobre</a></li>
+                <li><a class="menu" href="indexeras.html"  onclick="document.getElementById('menu-toggle').click()">Eras</a></li>
+                <li><a class="menu" href="#"  onclick="document.getElementById('menu-toggle').click()">Tours</a></li>
+                <li><a class="menu" href="#"  onclick="document.getElementById('menu-toggle').click()">Figurinos</a></li>
+                <li><a class="menu" href="#"  onclick="document.getElementById('menu-toggle').click()">Curiosidades</a></li>
+            </ul>
         </nav>
     </header>
     <main>
 
         <section>
-            <h2>Quem é Taylor Swift?</h2>
+            <h2>Sobre Taylor Swift</h2>
             <p>Taylor Alison Swift é uma cantora, compositora, instrumentista, produtora musical e atriz 
                 nascida em Reading, Pensilvânia, Estados Unidos. Nasceu a 13 de dezembro de 1989, 
                 filha de Scott Swift, corretor da bolsa de valores, e Andrea Swift, dona de casa, 
