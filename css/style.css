@@ -246,6 +246,24 @@ img{
     background-color: #87CEFA;
 }
 
+.reputation{
+    background-color: #000000;
+}
+
+.rep{
+    text-align: center;
+    color: white;
+}
+
+.album-rep{
+    text-align: justify;
+    color: white;
+}
+
+.lover{
+    background-color:  #FF69B4;
+}
+
 iframe{
     width: 100%;
 
