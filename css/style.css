@@ -284,11 +284,17 @@ iframe{
 
 }
 
+/*linha do tempo*/
+
 html, ul, li {
     margin: 0;
     padding: 0;
     color:#272424;
-    background-color: #ebe8e8;
+    
+}
+
+body{
+    background-color: #aaaaaa;
 }
 
 .linhadotempo{
@@ -296,7 +302,7 @@ html, ul, li {
     padding: 0;
     font-family: 'Nunito', sans-serif;
     color:#272424;
-    background-color: #ebe8e8;    
+    background-color: #aaaaaa;    
 }
 
 .container {
@@ -340,6 +346,10 @@ html, ul, li {
 
 .timeline ul li:nth-child(even) {
     flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+    float: right
 }
 
 .timeline ul li .content h3 {
