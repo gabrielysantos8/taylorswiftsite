@@ -174,18 +174,6 @@ ul li{
     width: 15%;
 }
 
-/*sections
-
-.linha{
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.col-6{
-    width: 50%;
-}*/
 
 /*tabela*/
 
@@ -328,6 +316,13 @@ img{
     margin-right: 5%;
 }
 
+.capas{
+    box-shadow: 5px 5px 10px;
+}
+.caparep{
+    box-shadow: 3px 3px 10px rgb(219, 219, 219);
+}
+
 .album{
     text-align: justify;
 }
@@ -389,6 +384,22 @@ iframe{
     width: 100%;
 
 }
+
+@media only screen and (max-width: 800px){
+    .capa{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+
+}
+
+
 
 /*linha do tempo*/
 
@@ -492,7 +503,3 @@ body{
     border: 3px #333333 solid;
     position: relative;
 }
-
-
-
-  
