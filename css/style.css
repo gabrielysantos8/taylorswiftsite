@@ -29,8 +29,15 @@ nav{
 }
 
 main{
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 1100px){
+    main {
     margin-top: 6%;
 }
+}
+
 
 section{
     background-color: #aaaaaa;
@@ -460,5 +467,37 @@ body{
 .yellow { background: #dce743; }
 
 
+/*fundo animado*/
 
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: fixed; /* Ou absolute, dependendo do efeito desejado */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca o fundo atrás de tudo */
+}
+
+
+.icone {
+    width: 80px;
+    height: 80px;
+    background-image: url('../img/estrelaicone.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: anima linear infinite;
+    animation-duration: calc(300s / var(--i));
+}
+
+@keyframes anima {
+    0%{
+        transform: translateY(100vh) scale(0) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1) rotate(360deg);
+    }
+}
 
