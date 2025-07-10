@@ -511,3 +511,37 @@ body{
         transform: translateY(-10vh) scale(1) rotate(360deg);
     }
 }
+
+/*curiosidade*/
+
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.conteudo img {
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+  max-width: 600px;
+}
+
+.texto h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.texto ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #222;
+}
