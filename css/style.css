@@ -210,6 +210,8 @@ main{
     flex-flow: row wrap;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .col-9{
@@ -259,7 +261,6 @@ h3{
 }
 
 .taylor{
-    border-radius: 6%;
     border-radius: 25px;
     box-shadow: 3px 3px 10px;
     border: 2px solid #b15cd3;
